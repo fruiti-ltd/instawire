@@ -1,10 +1,12 @@
 # InstaWire
 
+Spin up your own private VPN service in any AWS region. 
+
+![terraform graph](docs/terraform_graph.svg "Terraform Graph")
+
 ## Requirements
    * An AWS account (https://aws.amazon.com) and credentials (hint: use something awesome like https://github.com/99designs/aws-vault to manage these)
    * Terraform >= 1.1.8 (https://www.terraform.io/downloads)
-
-Spin up your own private VPN service in any AWS region. 
 
 ## Usage
 

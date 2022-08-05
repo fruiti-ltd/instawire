@@ -93,6 +93,13 @@ terraform_destroy() {
    cd $THIS_DIR
 }
 
+terraform_graph() {
+   set_terraform_variables
+   cd $TERRAFORM_DIR
+   terraform graph | dot -Tsvg > $THIS_DIR/docs/terraform_graph.svg
+   cd $THIS_DIR
+}
+
 test() {
    echo "TEST MODE"
    echo -n "us-east-1" > "$CONFIG_DIR/region"
