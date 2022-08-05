@@ -9,6 +9,7 @@ Spin up your own private VPN service in any AWS region.
 ## Requirements
    * An AWS account (https://aws.amazon.com) and credentials (hint: use something awesome like https://github.com/99designs/aws-vault to manage these)
    * Terraform >= 1.1.8 (https://www.terraform.io/downloads)
+   * Any WireGuard client (https://www.wireguard.com/install/)
 
 ## Usage
 
