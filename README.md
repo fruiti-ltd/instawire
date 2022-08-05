@@ -1,6 +1,8 @@
 # InstaWire
 
-Spin up your own private VPN service in any AWS region. 
+Spin up your own private VPN service in any AWS region.
+
+**PLEASE NOTE** This creates resources in your AWS account and you may be charged until you stop your service. Use at your own risk/wallet.
 
 ![terraform graph](docs/terraform_graph.svg "Terraform Graph")
 
