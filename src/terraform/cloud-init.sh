@@ -35,5 +35,6 @@ UNATTUPG=1""" > $INSTALL_DIR/options.conf
 sudo $INSTALL_DIR/install.sh --unattended $INSTALL_DIR/options.conf
 
 pivpn add --name="aws-$${PUBLIC_IP}"
+chown -R ubuntu: /home/ubuntu/configs
 
 sudo reboot
